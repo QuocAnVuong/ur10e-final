@@ -19,10 +19,6 @@ public class TableDestinationPublisher : MonoBehaviour
     [SerializeField]
     GameObject m_Table;
 
-    [SerializeField]
-    GameObject m_Target;
-
-
     // ROS Connector
     ROSConnection m_Ros;
 

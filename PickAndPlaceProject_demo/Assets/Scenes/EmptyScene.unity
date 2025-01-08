@@ -1878,11 +1878,6 @@ PrefabInstance:
     - {fileID: 1360562467880377952, guid: e6191e23ac09c47b2a5ca3e6e668231b, type: 3}
     - {fileID: 6000586441387109927, guid: e6191e23ac09c47b2a5ca3e6e668231b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e6191e23ac09c47b2a5ca3e6e668231b, type: 3}
---- !u!1 &425777738 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5601983281253769233, guid: 3901759e6233748538fffdbc519c1a68, type: 3}
-  m_PrefabInstance: {fileID: 334415411}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &475059277
 GameObject:
   m_ObjectHideFlags: 8
@@ -3324,7 +3319,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1314947902}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: TrajectoryPlanner, Unity.Robotics.PickAndPlace
         m_MethodName: PublishJoints
         m_Mode: 1
@@ -5508,7 +5503,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1314947903}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: TableDestinationPublisher, Unity.Robotics.PickAndPlace
         m_MethodName: Publish
         m_Mode: 1
@@ -5703,11 +5698,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fae53a797b5479c43b9a3aeac7e35e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1194889953 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3302142234816977626, guid: 85db2308098d34a79837fb7356902f62, type: 3}
-  m_PrefabInstance: {fileID: 242754964}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1195637704
 GameObject:
   m_ObjectHideFlags: 0
@@ -6236,8 +6226,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1314947904}
-  - component: {fileID: 1314947902}
-  - component: {fileID: 1314947903}
   m_Layer: 0
   m_Name: Publisher
   m_TagString: Untagged
@@ -6245,37 +6233,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1314947902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1314947901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6d474c0cada7b9c2ad57935bfe985bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RosServiceName: ur10e_rg2_moveit
-  m_UR10e: {fileID: 531258931}
-  m_Target: {fileID: 425777738}
-  m_TargetPlacement: {fileID: 2039468469}
---- !u!114 &1314947903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1314947901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c01afa26f544ed5b926d84e9319cf9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TopicName: /collision_object
-  m_Table: {fileID: 1194889953}
-  m_Target: {fileID: 425777738}
 --- !u!4 &1314947904
 Transform:
   m_ObjectHideFlags: 0
@@ -8610,11 +8567,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   geometryType: 3
---- !u!1 &2039468469 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 850690186460591414, guid: 43bef545df3e344c4a7e089ca90c15a0, type: 3}
-  m_PrefabInstance: {fileID: 975207554}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2085919247
 PrefabInstance:
   m_ObjectHideFlags: 0
